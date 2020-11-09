@@ -10,7 +10,6 @@
 		8CFCDE322559755000F155B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCDE312559755000F155B8 /* AppDelegate.swift */; };
 		8CFCDE342559755000F155B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCDE332559755000F155B8 /* SceneDelegate.swift */; };
 		8CFCDE362559755000F155B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCDE352559755000F155B8 /* ViewController.swift */; };
-		8CFCDE392559755000F155B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCDE372559755000F155B8 /* Main.storyboard */; };
 		8CFCDE3B2559755200F155B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCDE3A2559755200F155B8 /* Assets.xcassets */; };
 		8CFCDE3E2559755200F155B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCDE3C2559755200F155B8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		8CFCDE312559755000F155B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CFCDE332559755000F155B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8CFCDE352559755000F155B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8CFCDE382559755000F155B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CFCDE3A2559755200F155B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CFCDE3D2559755200F155B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CFCDE3F2559755200F155B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				8CFCDE312559755000F155B8 /* AppDelegate.swift */,
 				8CFCDE332559755000F155B8 /* SceneDelegate.swift */,
 				8CFCDE352559755000F155B8 /* ViewController.swift */,
-				8CFCDE372559755000F155B8 /* Main.storyboard */,
 				8CFCDE3A2559755200F155B8 /* Assets.xcassets */,
 				8CFCDE3C2559755200F155B8 /* LaunchScreen.storyboard */,
 				8CFCDE3F2559755200F155B8 /* Info.plist */,
@@ -126,7 +123,6 @@
 			files = (
 				8CFCDE3E2559755200F155B8 /* LaunchScreen.storyboard in Resources */,
 				8CFCDE3B2559755200F155B8 /* Assets.xcassets in Resources */,
-				8CFCDE392559755000F155B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +142,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8CFCDE372559755000F155B8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CFCDE382559755000F155B8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8CFCDE3C2559755200F155B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8YE27GARE;
 				INFOPLIST_FILE = NoStoryboardTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.f1soft.NoStoryboardTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8YE27GARE;
 				INFOPLIST_FILE = NoStoryboardTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.f1soft.NoStoryboardTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
