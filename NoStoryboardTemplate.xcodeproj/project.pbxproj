@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822D51B9B0EAEFDE16ED442F /* Pods_NoStoryboardTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EC3DA29001D0DA5E370C62 /* Pods_NoStoryboardTemplate.framework */; };
 		8CFCDE322559755000F155B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCDE312559755000F155B8 /* AppDelegate.swift */; };
 		8CFCDE342559755000F155B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCDE332559755000F155B8 /* SceneDelegate.swift */; };
 		8CFCDE362559755000F155B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCDE352559755000F155B8 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		590CE2C214E4ED39072618DE /* Pods-NoStoryboardTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoStoryboardTemplate.debug.xcconfig"; path = "Target Support Files/Pods-NoStoryboardTemplate/Pods-NoStoryboardTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		8832C4B1E28C6EA099F3244F /* Pods-NoStoryboardTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoStoryboardTemplate.release.xcconfig"; path = "Target Support Files/Pods-NoStoryboardTemplate/Pods-NoStoryboardTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		8CFCDE2E2559755000F155B8 /* NoStoryboardTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoStoryboardTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFCDE312559755000F155B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CFCDE332559755000F155B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		8CFCDE3A2559755200F155B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CFCDE3D2559755200F155B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CFCDE3F2559755200F155B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98EC3DA29001D0DA5E370C62 /* Pods_NoStoryboardTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoStoryboardTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822D51B9B0EAEFDE16ED442F /* Pods_NoStoryboardTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B780286944145AC5184C142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				590CE2C214E4ED39072618DE /* Pods-NoStoryboardTemplate.debug.xcconfig */,
+				8832C4B1E28C6EA099F3244F /* Pods-NoStoryboardTemplate.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8CFCDE252559755000F155B8 = {
 			isa = PBXGroup;
 			children = (
 				8CFCDE302559755000F155B8 /* NoStoryboardTemplate */,
 				8CFCDE2F2559755000F155B8 /* Products */,
+				0B780286944145AC5184C142 /* Pods */,
+				9B2FFE4BD4CA21F96A8074F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +81,14 @@
 			path = NoStoryboardTemplate;
 			sourceTree = "<group>";
 		};
+		9B2FFE4BD4CA21F96A8074F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98EC3DA29001D0DA5E370C62 /* Pods_NoStoryboardTemplate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +96,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CFCDE422559755200F155B8 /* Build configuration list for PBXNativeTarget "NoStoryboardTemplate" */;
 			buildPhases = (
+				3CB4622C41585A7614C75608 /* [CP] Check Pods Manifest.lock */,
 				8CFCDE2A2559755000F155B8 /* Sources */,
 				8CFCDE2B2559755000F155B8 /* Frameworks */,
 				8CFCDE2C2559755000F155B8 /* Resources */,
@@ -127,6 +153,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CB4622C41585A7614C75608 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoStoryboardTemplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8CFCDE2A2559755000F155B8 /* Sources */ = {
@@ -271,6 +322,7 @@
 		};
 		8CFCDE432559755200F155B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590CE2C214E4ED39072618DE /* Pods-NoStoryboardTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,6 +343,7 @@
 		};
 		8CFCDE442559755200F155B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8832C4B1E28C6EA099F3244F /* Pods-NoStoryboardTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
